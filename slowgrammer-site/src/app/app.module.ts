@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { SiteDetailComponent } from './company-info/site-detail/site-detail.component';
+import { SiteDetailComponent } from './component/site-detail/site-detail.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 
