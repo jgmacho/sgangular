@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ShopComponent } from './component/shop/shop.component';
 
 export const routes: Routes = [
-  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent},
   { path: 'shop', component: ShopComponent}
 ];
