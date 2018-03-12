@@ -1,4 +1,6 @@
-<p>
-  shop works!
-</p>
-<!-- more components for the shop will be added later -->
+<div class="">
+  <span>slowGrammer Shop</span>
+</div>
+<div *ngFor="let product of products">
+  <app-product-card [product]="product"></app-product-card>
+</div>

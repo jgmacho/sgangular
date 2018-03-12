@@ -8,6 +8,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { HomeComponent } from './component/home/home.component';
 import { ShopComponent } from './component/shop/shop.component';
+import { ProductCardComponent } from './component/product-card/product-card.component';
 
 
 
@@ -17,7 +18,8 @@ import { ShopComponent } from './component/shop/shop.component';
     SiteDetailComponent,
     NavBarComponent,
     HomeComponent,
-    ShopComponent
+    ShopComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
