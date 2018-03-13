@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./product-card.component.css']
 })
 export class ProductCardComponent implements OnInit {
-
+  image = 'assets/images/twinshirt.jpg';
   @Input() product: Product;
 
   constructor(private router: Router) { }

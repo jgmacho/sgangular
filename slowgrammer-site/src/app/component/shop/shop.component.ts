@@ -9,7 +9,6 @@ import { ProductCardComponent } from '../product-card/product-card.component';
   styleUrls: ['./shop.component.css']
 })
 export class ShopComponent implements OnInit {
-
   products: Product[] = [];
   constructor(private router: Router) { }
 

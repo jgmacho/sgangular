@@ -1,6 +1,10 @@
-<div class="">
+<div >
   <span>slowGrammer Shop</span>
 </div>
-<div *ngFor="let product of products">
-  <app-product-card [product]="product"></app-product-card>
+<div class="container-fluid">
+<div class="row">
+  <div *ngFor="let product of products">
+    <app-product-card [product]="product"></app-product-card>
+  </div>
+</div>
 </div>
