@@ -9,6 +9,7 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { HomeComponent } from './component/home/home.component';
 import { ShopComponent } from './component/shop/shop.component';
 import { ProductCardComponent } from './component/product-card/product-card.component';
+import { ProductComponent } from './component/product/product.component';
 
 
 
@@ -19,7 +20,8 @@ import { ProductCardComponent } from './component/product-card/product-card.comp
     NavBarComponent,
     HomeComponent,
     ShopComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

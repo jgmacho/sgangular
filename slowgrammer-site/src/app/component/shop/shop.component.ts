@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Product } from './../../models/product';
 import { Component, OnInit } from '@angular/core';
 import { ProductCardComponent } from '../product-card/product-card.component';
@@ -10,7 +11,7 @@ import { ProductCardComponent } from '../product-card/product-card.component';
 export class ShopComponent implements OnInit {
 
   products: Product[] = [];
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.getProducts();
@@ -28,5 +29,9 @@ export class ShopComponent implements OnInit {
     // this.products[1] = product2;
     // this.products[2] = product3;
 
+  }
+
+  loadProduct(product) {
+    this.router.navigate(['product', {product: product}]);
   }
 }
